@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	form
+		fieldset
+			legend Comedy Submission Form
+			#comedian-name
+				input(type='text', name='comedian-name', placeholder='Comedian Name')
+			#video-url
+				input(type='url', name='video-url', placeholder='YouTube Video URL')
+			#bit-title
+				input(type='text', name='bit-title', placeholder='Title of Comedy Bit')
+			#bit-description
+				textarea(name='description', placeholder='description')
